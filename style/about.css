@@ -1,0 +1,105 @@
+#about {
+    height: fit-content;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  
+  .skills-body-container h1 {
+    font-size: 1rem;
+  }
+  
+  .skills-body-container p {
+    text-align: start;
+    width: -webkit-fill-available;
+  }
+
+  .skills-list {
+    display: grid;
+    gap: 8px;
+  }
+  
+  .about-details-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .about-title {
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    letter-spacing: -0.8px;
+  }
+  
+  .about-pic {
+    border-radius: 2rem;
+  }
+  
+  .arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+  }
+  
+  .education-details-container {
+    padding: 16px;
+    border-radius: 16px;
+    border: 0.1rem solid;
+    border-color: rgb(85, 85, 85);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  
+  .experience-details-container {
+    padding: 16px;
+    border-radius: 16px;
+    border: 0.1rem solid;
+    border-color: rgb(85, 85, 85);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  
+  .skills-details-container {
+    padding: 16px;
+    border-radius: 16px;
+    border: 0.1rem solid;
+    border-color: rgb(85, 85, 85);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  
+  .section-container {
+    gap: 4rem;
+    height: 80%;
+  }
+  
+  .section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+  }
+  
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .text-container p{
+    text-align: justify;
+  }
+
+  .text-container img {
+    height: auto;
+    width: 100%;
+    border-radius: 12px;
+  }

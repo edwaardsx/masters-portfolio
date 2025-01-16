@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+@font-face {
+  font-family: cocogoose-regular;
+  src: url(cocogoose-regular.ttf);
+}
+
+@font-face {
+  font-family: cocogoose-demibold;
+  src: url(cocogoose-demibold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #FFFAF1;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-decoration-color: white;
+  font-size: 12px;
+}
+
+a:hover {
+  color: rgb(207, 207, 207);
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(207, 207, 207);
+}
+
+
+
+
+
+
