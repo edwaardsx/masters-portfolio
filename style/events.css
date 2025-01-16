@@ -7,7 +7,7 @@
 }
 
 .event-container {
-    background-image: url('/assets/ux-plus-bg-image.png');
+    background-image: url('/assets/events/ux-plus-bg-image.png');
     display: flex;
     flex-direction: column;
     gap: 22px;
