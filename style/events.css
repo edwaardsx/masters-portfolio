@@ -6,12 +6,22 @@
     gap: 22px;
 }
 
-.event-container {
-    background-image: url("https://github.com/edwaardsx/masters-portfolio/blob/main/assets/events/ux-plus-bg-image.png");
+.ux-event-container {
+    position: relative;
     display: flex;
-    flex-direction: column;
-    gap: 22px;
     align-items: center;
+    justify-content: center;
+}
+
+.ux-event-logo {
+    position: absolute;
+    /* left: 500px; */
+    height: auto;
+    width: 25%;
+}
+
+.event-container {
+    width: -webkit-fill-available;
     object-fit: cover;
     background-position: center;
     border-radius: 16px;
