@@ -7,7 +7,7 @@
 }
 
 .event-container {
-    background-image: url('https://github.com/edwaardsx/masters-portfolio/blob/main/assets/events/ux-plus-bg-image.png');
+    background-image: url("https://github.com/edwaardsx/masters-portfolio/blob/main/assets/events/ux-plus-bg-image.png");
     display: flex;
     flex-direction: column;
     gap: 22px;
