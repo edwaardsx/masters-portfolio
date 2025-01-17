@@ -1,6 +1,6 @@
 #events {
     height: fit-content;
-    padding: 16px;
+    padding: 32px;
     display: flex;
     flex-direction: column;
     gap: 22px;

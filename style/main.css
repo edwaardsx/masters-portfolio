@@ -249,16 +249,16 @@
     display: flex;
     /* position: absolute; */
     position: fixed;
-    margin: 1em 18.7em 0 18.7em;
+    /* margin: 1em 18.7em 0 18.7em; */
     top: 0%;
     bottom: auto;
-    padding: 16px;
     width: -webkit-fill-available;
     /* width: fit-content; */
-    background-color: #282828;
+    /* background-color: #282828; */
+    background-color: rgb(31, 31, 31);
     z-index: 10000;
     /* background-color: rgba(255, 255, 255, 0.253); */
-    border-radius: 28px;
+    /* border-radius: 28px; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(57, 57, 57, 0.2);
   }
@@ -291,7 +291,7 @@
   }
   
   .resume-btn {
-    background: #007AFF;
+    background: #333F;
     padding: 16px;
     border: 0.16em solid #555555;
     border-radius: 1em;
@@ -330,10 +330,16 @@
     }
   
   .project-btn-color {
-    background: rgb(46, 46, 46);
-    border: 0.16em solid rgb(85, 85, 85);
-    border-radius: 2em;
-    color: rgb(255, 255, 255);
+    background: #333F;
+    padding: 16px;
+    border: 0.16em solid #555555;
+    border-radius: 1em;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #ffffff;
+    text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+    text-align: center;
+    transition: all 0.2s;
   }
   
   .project-btn-color:hover {
@@ -348,7 +354,7 @@
   }
 
   ul {
-    padding: 0 15px;
+    /* padding: 0 15px; */
     color: green;
     font-size: 15px;
   }
@@ -421,7 +427,7 @@
     list-style: none;
     width: auto;
     text-align: right;
-    /* padding: 0 5em; */
+    padding: 0 2.5em 0 5em;
     transform: translateX(100%);
     transition: transform 0.5s ease-in-out;
 }

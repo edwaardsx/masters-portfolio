@@ -1,9 +1,9 @@
 #projects {
     height: fit-content;
-    padding: 50px 16px 50px 16px;
+    padding: 32px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 22px;
   }
   
   .project-img {
@@ -70,9 +70,9 @@
     text-overflow: ellipsis;
   }
 
-  .project-details-container p {
+  /* .project-details-container p {
     text-align: justify;
-  }
+  } */
 
   .project-grid {
     display: grid;
