@@ -155,17 +155,17 @@
   .left-container-arrow {
     left: auto;
     right: -15px;
-    border-left: 15px solid antiquewhite;
+    border-left: 15px solid #FFFAF1;
     border-right: none;
   }
   .content .text {
     font-size: 2.5rem;
   }
-  .event-title {
-    font-size: 2em;
-  }
+  /* .event-title {
+    font-size: 1.7em;
+  } */
   .text-event-container p {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
   .event-info-location-container {
     flex-direction: row;

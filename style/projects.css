@@ -1,4 +1,5 @@
 #projects {
+    background-color: rgb(31, 31, 31);
     height: fit-content;
     padding: 32px;
     display: flex;
@@ -55,7 +56,7 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-    background: antiquewhite;
+    background: #FFFAF1;
     border-radius: 16px;
     transition: transform 0.3s ease-in-out;
   }

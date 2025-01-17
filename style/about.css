@@ -1,4 +1,5 @@
 #about {
+    background-color: rgb(31, 31, 31);
     height: fit-content;
     padding: 16px;
     display: flex;
@@ -28,6 +29,7 @@
   .about-title {
     text-align: center;
     font-family: "Space Mono", monospace;
+    color: #FFFAF1;
     font-weight: 700;
     font-style: normal;
     font-size: 2rem;
@@ -96,6 +98,7 @@
   
   .text-container p{
     text-align: justify;
+    color: #FFFAF1;
   }
 
   .text-container img {

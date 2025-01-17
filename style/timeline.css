@@ -5,7 +5,7 @@
 }
 
 .container {
-    padding: 10px 50px;
+    padding: 10px 40px;
     position: relative;
     padding-right: 0;
 }
@@ -14,7 +14,7 @@
     padding: 0 15px;
     position: relative;
     padding: 16px;
-    background: antiquewhite;
+    background: #FFFAF1;
     border-radius: 16px;
 }
 
@@ -45,11 +45,11 @@
     position: absolute;
     width: 2px;
     height: 100%;
-    background: #939393;
+    background: #FFFAF1;
     top: 0;
     left: 21px;
     margin-left: -3px;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .left-container-arrow {
@@ -60,7 +60,7 @@
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid antiquewhite;
+    border-right: 15px solid #FFFAF1;
     left: -15px;
 }
 
@@ -72,6 +72,6 @@
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid antiquewhite;
+    border-right: 15px solid #FFFAF1;
     left: -15px;
 }

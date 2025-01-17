@@ -1,4 +1,5 @@
 #events {
+    background-color: rgb(31, 31, 31);
     height: fit-content;
     padding: 32px;
     display: flex;
@@ -35,6 +36,7 @@
 
 .text-event-container p {
     text-align: center;
+    color: #FFFAF1;
 }
 
 .event-container img {
@@ -45,7 +47,7 @@
 
 .event-title {
     font-weight: bold;
-    /* color: #FFFAF1; */
+    color: #FFFAF1;
     /* font-size: 6em; */
     /* font-family: "cocogoose-regular"; */
 }
@@ -70,7 +72,7 @@
     width: fit-content;
     background: antiquewhite;
     padding: 8px 16px;
-    border-radius: 16px;
+    border-radius: 1em;
 }
 
 .events-going-container h3 {
