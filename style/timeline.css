@@ -28,7 +28,7 @@
 
 .left-container img,
 .right-container img {
-    left: 10px;
+    left: 3px;
 }
 
 .container img {
@@ -44,10 +44,10 @@
     content: '';
     position: absolute;
     width: 2px;
-    height: 100%;
+    height: 98%;
     background: #FFFAF1;
-    top: 0;
-    left: 21px;
+    top: 8px;
+    left: 14px;
     margin-left: -3px;
     /* z-index: -1; */
 }

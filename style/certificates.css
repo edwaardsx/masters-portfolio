@@ -1,0 +1,124 @@
+#certificates {
+    background-color: rgb(31, 31, 31);
+    height: fit-content;
+    /* padding: 16px; */
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .certificates-title {
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    transition: gap 0.3s ease;
+    width: fit-content;
+    padding: 16px 16px 0 16px;
+  }
+
+  /* .certificates-grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 25px;
+  } */
+
+  .certificates-grid {
+    --gap: 16px;
+    --num-cols: 4;
+    --row-height: 300px;
+
+    box-sizing: border-box;
+    padding: var(--gap);
+
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+  }
+
+  .certificates-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    background-color: rgb(51, 51, 51);
+    border-radius: 16px;
+    border: 0.16em solid #555555;
+    border-radius: 1em;
+  }
+
+  .certificates-grid-col-2 {
+    grid-column: span 2;
+  }
+
+  .certificates-grid-row-2 {
+    grid-row: span 2;
+  }
+
+
+
+  .certificates-details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    /* background: #FFFAF1; */
+    border-radius: 16px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .certificates-image-presentation {
+    /* border-radius: 16px 16px 0 0; */
+    border-radius: 16px;
+    object-fit: scale-down;
+    height: auto;
+  }
+
+  .certificates-presentation-details{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 16px 16px 16px;
+  }
+
+  .certificates-title {
+    text-align: start;
+  }
+
+  .certificates-title-container {
+    display: flex;
+    gap: 8px;
+  }
+
+  .certificates-title-container h3 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+
+  .certificates-img {
+    border-radius: 12px;
+    width: 240px;
+    height: 220px;
+  }
+
+
+
+
+  .photo-gallery {
+    display: flex;
+    gap: 20px;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+  }

@@ -1,7 +1,7 @@
 #projects {
     background-color: rgb(31, 31, 31);
     height: fit-content;
-    padding: 32px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     gap: 22px;
@@ -78,5 +78,5 @@
   .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    gap: 50px;
+    gap: 22px;
   }

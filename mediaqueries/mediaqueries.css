@@ -3,6 +3,9 @@
     flex-direction: row-reverse;
     gap: .5em;
   }
+  footer {
+    padding: 16px;
+  }
   .hide-desktop {
     display: block;
   }
@@ -28,14 +31,13 @@
   .intro-description {
     padding-top: .7em;
   }
-  .main-shapes-wrapper, .blending-group-wrapper {
+  /* .main-shapes-wrapper, .blending-group-wrapper {
     filter: blur(80px);
-  }
+  } */
   .ultra-gradient-wrapper {
     font-size: 1.3vh;
   }
 }
-
 
 @media (min-width: 375px) {
   .hide-desktop {
@@ -53,6 +55,10 @@
 @media (min-width: 425px) {
   nav {
     flex-direction: row-reverse;
+  }
+  .shape-3 {
+    width: 10em;
+    top: 4.2em;
   }
   .title1 {
     font-size: 2em;
@@ -83,10 +89,34 @@
   }
 }
 
+@media (max-width: 425px) {
+  .photo-gallery {
+    flex-direction: column;
+  }
+  .certificates-grid img {
+    object-fit: cover;
+  }
+}
+
 
 
 @media (min-width: 768px) {
   #about {
+    padding: 32px;
+  }
+  .certificates-grid {
+    padding: 16px 32px 32px 32px;
+  }
+  .certificates-title {
+    padding: 0 32px 0 32px;
+  }
+  #events {
+    padding: 32px;
+  }
+  #projects {
+    padding: 32px;
+  }
+  footer {
     padding: 32px;
   }
   header {
@@ -175,6 +205,12 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .certificates-grid {
+    --num-cols: 2;
+    --row-height: 200px;
+  }
+}
 
 @media (min-width: 1024px) {
   footer #contact {
@@ -289,6 +325,21 @@
   #projects {
     padding: 32px 150px;
   }
+  #events {
+    padding: 32px 150px;
+  }
+  footer {
+    padding: 32px 150px;
+  }
+  .certificates-grid {
+    padding: 16px 150px 32px 150px;
+  }
+  .certificates-title {
+    padding: 32px 150px 0 150px;
+  }
+  /* #certificates {
+    padding: 32px 150px;
+  } */
   /* .resume-btn {
     padding: 16px 32px;
   } */
@@ -344,9 +395,18 @@
     padding: 50px 300px;
   }
   #projects {
-    padding: 50px 300px 100px 300px;
+    padding: 50px 300px;
+  }
+  .certificates-grid {
+    padding: 16px 300px 50px 300px;
+  }
+  .certificates-title {
+    padding: 50px 300px 0 300px;
   }
   #events {
+    padding: 50px 300px;
+  }
+  footer {
     padding: 50px 300px;
   }
 }

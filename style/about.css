@@ -105,4 +105,5 @@
     height: auto;
     width: 100%;
     border-radius: 12px;
+    border: 0.16em solid #555555;
   }

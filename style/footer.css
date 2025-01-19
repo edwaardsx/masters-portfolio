@@ -2,7 +2,29 @@ footer {
   background-color: rgb(31, 31, 31);
   height: fit-content;
   align-content: center;
-  padding: 50px 300px;
+  border-top: 0.1em solid #555555; 
+  /* padding: 50px 300px; */
+}
+
+.footer-portfolio-logo {
+  display: flex;
+  gap: 8px;
+  width: fit-content;
+}
+
+.footer-portfolio-logo img {
+  width: 28px;
+  height: 28px;
+}
+
+.footer-c small {
+  color: #FFFAF1;
+  align-content: center;
+}
+
+.footer-portfolio-contents {
+  display: flex;
+  justify-content: space-between;
 }
 
 #contact {
