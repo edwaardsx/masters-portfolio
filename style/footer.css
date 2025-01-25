@@ -2,7 +2,10 @@ footer {
   background-color: rgb(31, 31, 31);
   height: fit-content;
   align-content: center;
-  border-top: 0.1em solid #555555; 
+  border-top: 0.1em solid #555555;
+  gap: 22px;
+  display: flex;
+  flex-direction: column;
   /* padding: 50px 300px; */
 }
 
@@ -15,6 +18,27 @@ footer {
 .footer-portfolio-logo img {
   width: 28px;
   height: 28px;
+}
+
+.footer-btn {
+  align-items: center;
+  padding: 4px 16px;
+  background: #333F;
+  border: 0.1em solid #555555;
+  border-radius: 1em;
+  color: #FFFAF1;
+  width: fit-content;
+  gap: 2px;
+  white-space: nowrap;
+}
+
+.footer-btn:hover {
+  cursor: pointer;
+  background: #555555;
+}
+
+.footer-c {
+  color: #FFFAF1;
 }
 
 .footer-c small {
@@ -143,6 +167,19 @@ footer h2 {
   border: 0.1rem solid;
   border-color: rgb(85, 85, 85);
   padding: 8px 12px 8px 12px;
+}
+
+.footer-btn-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(115px, 3px));
+  gap: 8px;
+}
+
+.footer-btn-container button {
+  display: flex;
+  flex-direction: row;
+  width: 115px;
+  justify-content: center;
 }
 
 /* .spikes {

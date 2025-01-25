@@ -322,9 +322,11 @@
   }
 
   .resume-btn:hover {
-    background: #FFFAF1;
-    color: black;
+    /* background: #FFFAF1; */
     cursor: pointer;
+    background: #555555;
+    /* color: black; */
+    
   }
   
   .btn {
@@ -354,14 +356,14 @@
     border-radius: 1em;
     font-weight: 300;
     font-size: 1rem;
-    color: #ffffff;
+    color: #FFFAF1;
     text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
     text-align: center;
     transition: all 0.2s;
   }
   
   .project-btn-color:hover {
-    background: rgb(59, 59, 59);
+    background: #555555;
     color: rgb(255, 255, 255);
   }
   
@@ -469,9 +471,9 @@ nav .header-left a {
   text-decoration: none;
 }
 
-nav ul li a:hover {
+/* nav ul li a:hover {
     text-decoration: underline;
-}
+} */
 
   .open {
     transform: translateX(0%);
