@@ -1,7 +1,7 @@
 #about {
     background-color: rgb(31, 31, 31);
     height: fit-content;
-    padding: 16px;
+    padding: 50px 16px;
     display: flex;
     flex-direction: column;
     gap: 22px;

@@ -1,7 +1,7 @@
 #projects {
     background-color: rgb(31, 31, 31);
     height: fit-content;
-    padding: 16px;
+    padding: 50px 16px;
     display: flex;
     flex-direction: column;
     gap: 22px;
@@ -13,7 +13,7 @@
     height: 220px;
   }
   
-  .btn2 {
+  /* .btn2 {
     color: black;
     font-weight: 600;
     transition: all 300ms ease;
@@ -22,6 +22,15 @@
     border-radius: 16px;
     border: #555555 0.2rem solid;
     background: transparent;
+  } */
+
+  .btn2 {
+    color: #000000;
+    transition: all 300ms ease;
+    padding: 16px;
+    width: 100%;
+    border-radius: 16px;
+    cursor: pointer;
   }
 
   .project-btn-container {

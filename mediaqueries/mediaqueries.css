@@ -4,7 +4,7 @@
     gap: .5em;
   }
   footer {
-    padding: 16px;
+    padding: 50px 16px;
   }
   .hide-desktop {
     display: block;
@@ -93,8 +93,11 @@
   .photo-gallery {
     flex-direction: column;
   }
-  .certificates-grid img {
+  /* .certificates-grid img {
     object-fit: cover;
+  } */
+  .left-container {
+    padding-left: 40px;
   }
 }
 
@@ -102,22 +105,22 @@
 
 @media (min-width: 768px) {
   #about {
-    padding: 32px;
+    padding: 100px 32px;
   }
   .certificates-grid {
     padding: 16px 32px 32px 32px;
   }
   .certificates-title {
-    padding: 0 32px 0 32px;
+    padding: 100px 32px 0 32px;
   }
   #events {
-    padding: 32px;
+    padding: 100px 32px;
   }
   #projects {
-    padding: 32px;
+    padding: 100px 32px;
   }
   footer {
-    padding: 32px;
+    padding: 100px 32px;
   }
   header {
     padding: 16px 32px 16px 32px;
@@ -133,8 +136,8 @@
     font-size: 3em;
   }
   .gutter-outside {
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-left: 3em;
+    padding-right: 3em;
   }
   .ultra-gradient-wrapper {
     font-size: 1.4vh;
@@ -172,6 +175,7 @@
   .right-container {
       left: 50%;
   }
+   
   .right-container img {
       left: -11px;
   }
@@ -208,7 +212,8 @@
 @media (max-width: 1024px) {
   .certificates-grid {
     --num-cols: 2;
-    --row-height: 200px;
+    --row-height: auto;
+    /* --gutter: 16px; */
   }
 }
 
@@ -310,7 +315,7 @@
       width: 100%;
   }
   #about {
-    padding: 32px 150px;
+    padding: 100px 150px;
   }
   .about-title {
     font-size: 3rem;
@@ -323,19 +328,19 @@
     width: 320px;
   }
   #projects {
-    padding: 32px 150px;
+    padding: 100px 150px;
   }
   #events {
-    padding: 32px 150px;
+    padding: 100px 150px;
   }
   footer {
-    padding: 32px 150px;
+    padding: 100px 150px;
   }
   .certificates-grid {
     padding: 16px 150px 32px 150px;
   }
   .certificates-title {
-    padding: 32px 150px 0 150px;
+    padding: 100px 150px 0 150px;
   }
   /* #certificates {
     padding: 32px 150px;
@@ -392,21 +397,21 @@
     display: block;
   }
   #about {
-    padding: 50px 300px;
+    padding: 100px 300px;
   }
   #projects {
-    padding: 50px 300px;
+    padding: 100px 300px;
   }
   .certificates-grid {
     padding: 16px 300px 50px 300px;
   }
   .certificates-title {
-    padding: 50px 300px 0 300px;
+    padding: 100px 300px 0 300px;
   }
   #events {
-    padding: 50px 300px;
+    padding: 100px 300px;
   }
   footer {
-    padding: 50px 300px;
+    padding: 100px 300px;
   }
 }

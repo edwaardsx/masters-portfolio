@@ -13,7 +13,7 @@
     align-items: center;
     transition: gap 0.3s ease;
     width: fit-content;
-    padding: 16px 16px 0 16px;
+    padding: 50px 16px 0 16px;
   }
 
   /* .certificates-grid {
@@ -26,7 +26,7 @@
   .certificates-grid {
     --gap: 16px;
     --num-cols: 4;
-    --row-height: 300px;
+    --row-height: auto;
 
     box-sizing: border-box;
     padding: var(--gap);
