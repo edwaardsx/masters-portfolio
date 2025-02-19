@@ -90,10 +90,6 @@
 }
 
 @media (max-width: 425px) {
-  body {
-    width: 100%;
-    overflow-x: hidden;
-  }
   .photo-gallery {
     flex-direction: column;
   }
@@ -101,7 +97,10 @@
     object-fit: cover;
   } */
   .left-container {
-    padding-left: 40px;
+    padding-left: 50px;
+  }
+  .right-container {
+    padding-left: 50px;
   }
 }
 
@@ -178,6 +177,7 @@
   }
   .right-container {
       left: 50%;
+      padding-right: 0;
   }
    
   .right-container img {

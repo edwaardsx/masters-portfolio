@@ -138,7 +138,7 @@
                     </p>
                     <div class="project-btn-container">
                         <button class="btn2 project-btn-color-secondary" onclick="window.open('https://github.com/edwaardsx/mathuto-modified-updated', '_blank')">Github</button>
-                        <button class="btn project-btn-color" onclick="window.open('https://www.figma.com/design/Cpx212E8JkPopN9qMOlIPU/Capstone-Project%3A-Mathuto?node-id=0-1&t=U5ryKr0WtjlGekVH-1', '_blank')">Figma<span class="arrow">></span></button>
+                        <button class="btn project-btn-color" onclick="window.open('https://www.figma.com/design/Cpx212E8JkPopN9qMOlIPU/Capstone-Project%3A-Mathuto?node-id=0-1&t=U5ryKr0WtjlGekVH-1', '_blank')">Figma</button>
                     </div>
                 </div>
             </div>
@@ -481,6 +481,30 @@
         const menuBtn = document.querySelector('.menu-open');
         const closeBtn = document.querySelector('.menu-close');
         const scrollToTopBtn = document.getElementById('scrollToTop');
+
+        //Scroll-Activated Sticky Header Navigation
+        // const body = document.body;
+        // let lastScroll = 0;
+
+        // window.addEventListener('scroll', () => {
+        //     const currentScroll = window.pageYOffset;
+            
+        //     if (currentScroll <= 0) {
+        //         body.classList.remove("scroll-up");
+        //     }
+
+        //     if (currentScroll > lastScroll && !body.classList.contains("scroll-down")) {
+        //         body.classList.remove("scroll-up");
+        //         body.classList.add("scroll-down");
+        //     }
+
+        //     if (currentScroll < lastScroll && body.classList.contains("scroll-down")) {
+        //         body.classList.remove("scroll-down");
+        //         body.classList.add("scroll-up");
+        //     }
+            
+        //     lastScroll = currentScroll;
+        // });
 
         menuBtn.addEventListener('click', () => {
             menu.classList.add('open')
