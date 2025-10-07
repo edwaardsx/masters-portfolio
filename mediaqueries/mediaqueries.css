@@ -18,8 +18,12 @@
   .logo-section {
     display: none;
   }
+  .get-in-touch {
+    margin: 8px 16px;
+  }
   .title1 {
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
+    padding: 0px 16px;
   }
   .copy-medium {
     font-size: .9em;
@@ -43,8 +47,12 @@
   .hide-desktop {
     display: block;
   }
+  .get-in-touch {
+    margin: 8px 16px;
+  }
   .title1 {
-    font-size: 1.7em;
+    /* font-size: 1.7em; */
+    padding: 0px 16px;
   }
   .copy-medium {
     font-size: .9em;
@@ -60,8 +68,12 @@
     width: 10em;
     top: 4.2em;
   }
+  .get-in-touch {
+    margin: 0px 16px;
+  }
   .title1 {
-    font-size: 2em;
+    /* font-size: 1em; */
+      padding: 8px 16px;
   }
   .copy-medium {
     font-size: 1em;
@@ -135,8 +147,12 @@
   .logo-section {
     display: block;
   }
+  .get-in-touch {
+    margin: 16px 32px;
+  }
   .title1 {
-    font-size: 3em;
+    /* font-size: 1.5em; */
+    padding: 0px 32px;
   }
   .gutter-outside {
     padding-left: 3em;
@@ -229,8 +245,12 @@
   header {
     padding: 0 100px;
   }
+  .get-in-touch {
+    margin: 24px 100px;
+  }
   .title1 {
-    font-size: 4em;
+    /* font-size: 2em; */
+    padding: 0 100px
   }
   .header-left img {
     height: 24px;
@@ -319,7 +339,7 @@
       width: 100%;
   }
   #about {
-    padding: 100px 150px;
+    padding: 100px 100px;
   }
   .about-title {
     font-size: 3rem;
@@ -332,19 +352,19 @@
     width: 320px;
   }
   #projects {
-    padding: 100px 150px;
+    padding: 100px;
   }
   #events {
-    padding: 100px 150px;
+    padding: 100px;
   }
   footer {
-    padding: 50px 150px;
+    padding: 50px 100px;
   }
   .certificates-grid {
-    padding: 16px 150px 32px 150px;
+    padding: 16px 100px 32px 100px;
   }
   .certificates-title {
-    padding: 100px 150px 0 150px;
+    padding: 100px 100px 0 100px;
   }
   /* #certificates {
     padding: 32px 150px;
@@ -385,8 +405,12 @@
   header {
     padding: 0px 300px;
   }
+  .get-in-touch {
+    margin: 24px 300px;
+  }
   .title1 {
-    font-size: 6em;
+    /* font-size: 4em; */
+    padding: 0px 300px;
   }
   /* nav ul {
     padding: 0 20em;
