@@ -83,7 +83,7 @@
     transform: scale(1.05);
   } */
 
-  .project-title-container h3 {
+  .project-title-container h4 {
     overflow: hidden;
     /* color: #FFFAF1; */
     white-space: nowrap;
