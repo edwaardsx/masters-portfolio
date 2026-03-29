@@ -273,8 +273,8 @@
     line-height: 1.2;
     color: #FFFAF1;
     text-align: start;
-    text-align: justify;
-    text-justify: inter-word;
+    /* text-align: justify; */
+    /* text-justify: inter-word; */
     font-family: "cocogoose-regular";
 
     /* type writer effect */
@@ -525,7 +525,7 @@
     /* padding: 0px 300px; */
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
     cursor: pointer;
     transition: gap 0.3s ease;
     width: fit-content;

@@ -4,7 +4,7 @@
     padding: 50px 16px;
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 24px;
   }
   
   .project-img {
@@ -49,7 +49,7 @@
   }
 
   .image-presentation {
-    border-radius: 16px;
+    border-radius: 12px;
     object-fit: scale-down;
     height: auto;
   }
@@ -66,8 +66,9 @@
     flex-direction: column;
     gap: 12px;
     background: #FFFAF1;
-    border-radius: 16px;
-    padding: 16px;
+    border: 0.16em solid #555555;
+    border-radius: 12px;
+    padding: 12px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
   }
@@ -84,9 +85,14 @@
 
   .project-title-container h3 {
     overflow: hidden;
+    /* color: #FFFAF1; */
     white-space: nowrap;
     text-overflow: ellipsis;
   }
+  
+  /* .project-title small {
+    color: #FFFAF1;
+  } */
 
   /* .project-details-container p {
     text-align: justify;
@@ -95,5 +101,5 @@
   .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
-    gap: 22px;
+    gap: 12px;
   }

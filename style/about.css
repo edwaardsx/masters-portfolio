@@ -4,7 +4,7 @@
     padding: 50px 16px;
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 24px;
   }
   
   .skills-body-container h1 {
@@ -97,7 +97,8 @@
   }
   
   .text-container p{
-    text-align: justify;
+    /* text-align: justify; */
+    margin-bottom: 24px;
     color: #FFFAF1;
   }
 

@@ -24,7 +24,7 @@
   } */
 
   .certificates-grid {
-    --gap: 16px;
+    --gap: 12px;
     --num-cols: 4;
     --row-height: auto;
 
@@ -42,9 +42,8 @@
     height: 100%;
     object-fit: scale-down;
     background-color: rgb(51, 51, 51);
-    border-radius: 16px;
+    border-radius: 12px;
     border: 0.16em solid #555555;
-    border-radius: 1em;
   }
 
   .certificates-grid-col-2 {
