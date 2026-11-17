@@ -26,7 +26,7 @@ footer {
   background: #333F;
   border: 0.1em solid #555555;
   border-radius: 1em;
-  color: #FFFAF1;
+  color: #D8CBB3;
   width: fit-content;
   gap: 2px;
   white-space: nowrap;
@@ -42,7 +42,7 @@ footer {
 }
 
 .footer-c small {
-  color: #FFFAF1;
+  color: #D8CBB3;
   align-content: center;
 }
 

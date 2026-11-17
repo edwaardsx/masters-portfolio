@@ -41,7 +41,7 @@
     width: 100%;
     height: 100%;
     object-fit: scale-down;
-    background-color: rgb(51, 51, 51);
+    background-color: #333333;
     border-radius: 12px;
     border: 0.16em solid #555555;
   }
